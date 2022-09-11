@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+div.iti {
+    @apply w-full;
+}
+input[name="phone"] {
+    @apply h-[35px] pl-10 block pt-1 w-full border-0 rounded;
+}

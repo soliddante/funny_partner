@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "Futura";
+    font-weight: 300;
+    src: url("../font/FuturaCyrillicLight.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Futura";
+    font-weight: 400;
+    src: url("../font/FuturaCyrillicBook.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Futura";
+    font-weight: 500;
+    src: url("../font/FuturaCyrillicMedium.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Futura";
+    font-weight: 600;
+    src: url("../font/FuturaCyrillicDemi.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Futura";
+    font-weight: 700;
+    src: url("../font/FuturaCyrillicHeavy.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Futura";
+    font-weight: 800;
+    src: url("../font/FuturaCyrillicBold.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Futura";
+    font-weight: 900;
+    src: url("../font/FuturaCyrillicExtraBold.woff") format("woff");
+}
