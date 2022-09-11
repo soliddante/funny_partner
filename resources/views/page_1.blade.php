@@ -165,7 +165,7 @@
     <x-map_3></x-map_3>
     <script>
         var activeObjectsCount = 0;
-        var LANDPRICE = 10;
+        var LANDPRICE = 45000;
 
         function getActiveItemsCount() {
             activeObjectsCount = 0;
@@ -312,5 +312,14 @@
             }
 
         })
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.18/js/intlTelInput.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.18/css/intlTelInput.css">
+    <script>
+        var input = document.querySelector("#phone");
+        window.intlTelInput(input, {
+            separateDialCode: true,
+            initialCountry: "IR",
+        });
     </script>
 </x-layouts.app>

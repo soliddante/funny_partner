@@ -117,7 +117,7 @@
     </script>
 
     <script>
-        var PRICE = 10;
+        var PRICE = 45000;
         user_buyed_lands = document.querySelector('input[name="user_buyed_lands"]').value;
         var lands = user_buyed_lands.split(',');
         lands = lands.filter(function(land) {
